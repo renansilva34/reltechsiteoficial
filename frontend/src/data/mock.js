@@ -166,14 +166,14 @@ export const products = {
       name: 'Gravador MHDX 1104',
       category: 'Gravadores',
       description: 'DVR 4 canais Multi HD, acesso remoto via app',
-      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/x9qpe6im_7ab23fd5-b910-4e96-8477-0c1d82819443.jpeg'
+      image: 'https://intelbras.vtexassets.com/arquivos/ids/159058/gravador-digital-de-video-multi-hd-mhdx-1104-frente.png?v=637247995095170000'
     },
     {
       id: 14,
       name: 'Gravador MHDX 1108',
       category: 'Gravadores',
       description: 'DVR 8 canais Multi HD, detecção inteligente',
-      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/ry98rzxu_6e21ced8-2e36-4822-a048-d6b425167597.jpeg'
+      image: 'https://intelbras.vtexassets.com/arquivos/ids/159060/gravador-digital-de-video-multi-hd-mhdx-1108-frente.png?v=637247996706470000'
     },
     {
       id: 15,
