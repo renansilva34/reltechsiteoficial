@@ -22,13 +22,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center transform group-hover:scale-105 transition-transform duration-300">
-              <div className="w-8 h-8 border-2 border-white rounded-md" style={{ transform: 'rotate(45deg)' }} />
-            </div>
-            <span className="text-2xl font-bold">
-              <span className="text-white">rel-</span>
-              <span className="text-green-500">tech</span>
-            </span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/95nuqnmz_09b2a9c9-69b7-4425-97cc-306d80a7e2e3.jpeg"
+              alt="Rel-Tech Logo"
+              className="h-12 w-auto transform group-hover:scale-105 transition-transform duration-300"
+            />
           </Link>
 
           {/* Desktop Navigation */}

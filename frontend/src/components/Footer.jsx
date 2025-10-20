@@ -10,15 +10,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Descrição */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                <div className="w-6 h-6 border-2 border-white rounded-md" style={{ transform: 'rotate(45deg)' }} />
-              </div>
-              <span className="text-xl font-bold">
-                <span className="text-white">rel-</span>
-                <span className="text-green-500">tech</span>
-              </span>
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/95nuqnmz_09b2a9c9-69b7-4425-97cc-306d80a7e2e3.jpeg"
+              alt="Rel-Tech Logo"
+              className="h-10 w-auto"
+            />
             <p className="text-gray-400 text-sm">
               Soluções eletrônicas completas de segurança. Inovação desde 2020.
             </p>
