@@ -1,63 +1,49 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import * as Icons from 'lucide-react';
 import { services } from '../data/mock';
 
 const Servicos = () => {
-  const getIcon = (iconName) => {
-    const IconComponent = Icons[iconName];
-    return IconComponent ? <IconComponent size={48} /> : <Icons.Settings size={48} />;
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black pt-32 pb-20">
       {/* Hero Section */}
       <section className="px-4 sm:px-6 lg:px-8 mb-20">
         <div className="max-w-7xl mx-auto">
-          <div className="relative h-48 rounded-2xl overflow-hidden mb-12">
+          <div className="relative h-32 rounded-2xl overflow-hidden mb-12">
             <img
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80"
+              src="https://static.wixstatic.com/media/76751ad539344a41a9950d2ee585e350.jpg/v1/fill/w_1919,h_129,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/76751ad539344a41a9950d2ee585e350.jpg"
               alt="Serviços"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent flex items-center">
               <div className="px-8">
-                <h1 className="text-5xl font-bold text-white mb-4">
-                  Nossos <span className="text-green-500">Serviços</span>
+                <h1 className="text-5xl font-bold text-white">
+                  Nossos Serviços
                 </h1>
-                <p className="text-gray-300 text-lg">Soluções completas de segurança eletrônica</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Grid */}
+      {/* Services Grid - Layout idêntico ao site original */}
       <section className="px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service) => (
               <div
                 key={service.id}
-                className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl overflow-hidden border border-green-500/10 hover:border-green-500/30 transition-all duration-300 transform hover:-translate-y-2"
+                className="group bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
               >
-                <div className="p-8 space-y-4">
-                  <div className="bg-green-500/10 w-20 h-20 rounded-lg flex items-center justify-center text-green-500 group-hover:bg-green-500 group-hover:text-black transition-all duration-300">
-                    {getIcon(service.icon)}
+                <div className="relative h-80 overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <h3 className="text-white font-bold text-lg text-center">{service.title}</h3>
                   </div>
-                  <h3 className="text-white font-bold text-xl">{service.title}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{service.description}</p>
-                </div>
-                <div className="px-8 pb-8">
-                  <a
-                    href="https://api.whatsapp.com/send/?phone=5511971943263&text&type=phone_number&app_absent=0"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-green-500 font-semibold hover:text-green-400 transition-colors"
-                  >
-                    Solicitar Orçamento
-                    <ArrowRight className="ml-2" size={16} />
-                  </a>
                 </div>
               </div>
             ))}
