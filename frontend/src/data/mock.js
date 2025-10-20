@@ -201,11 +201,11 @@ export const testimonials = [
 ];
 
 export const clients = [
-  { id: 1, name: 'Cube Office', logo: 'https://via.placeholder.com/150x80/1a1a1a/22c55e?text=CUBE+OFFICE' },
-  { id: 2, name: 'Prefeitura Mogi das Cruzes', logo: 'https://via.placeholder.com/150x80/1a1a1a/22c55e?text=PREFEITURA' },
-  { id: 3, name: 'USP', logo: 'https://via.placeholder.com/150x80/1a1a1a/22c55e?text=USP' },
-  { id: 4, name: 'W3 Ambiental', logo: 'https://via.placeholder.com/150x80/1a1a1a/22c55e?text=W3+AMBIENTAL' },
-  { id: 5, name: 'Unimed', logo: 'https://via.placeholder.com/150x80/1a1a1a/22c55e?text=UNIMED' }
+  { id: 1, name: 'Cube Office', logo: 'https://customer-assets.emergentagent.com/job_12fec467-b7c6-4eb9-b984-00acb218c576/artifacts/0qh73xbu_IMG_9068.png' },
+  { id: 2, name: 'Prefeitura Mogi das Cruzes', logo: 'https://static.wixstatic.com/media/a55d92_4857f0aee8164263afa0b2c5995a9840~mv2.jpg' },
+  { id: 3, name: 'USP', logo: 'https://static.wixstatic.com/media/a55d92_76e2565d456d439d8f9f02965170402e~mv2.png' },
+  { id: 4, name: 'W3 Ambiental', logo: 'https://static.wixstatic.com/media/a55d92_58eb3f8b59694d228c88bb185ec931f4~mv2.jpeg' },
+  { id: 5, name: 'Unimed', logo: 'https://static.wixstatic.com/media/a55d92_2e213a46cf5a4343956ff2d76d37291d~mv2.png' }
 ];
 
 export const projects = [
