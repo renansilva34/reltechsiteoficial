@@ -120,14 +120,14 @@ export const products = {
       name: 'Fechadura Digital FR 201',
       category: 'Fechaduras',
       description: 'Fechadura digital com senha e cartão, até 500 usuários',
-      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/7wzv1pcd_IMG_9093.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/4p9ugm9s_1f06b09d-c570-42d2-a424-31105780c1e7.jpeg'
     },
     {
       id: 8,
       name: 'Fechadura Digital FR 101',
       category: 'Fechaduras',
       description: 'Fechadura digital básica com senha, fácil instalação',
-      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/ei9mchgj_IMG_9094.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/7wzv1pcd_IMG_9093.jpeg'
     },
     {
       id: 9,
