@@ -221,8 +221,12 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             {clients.map((client) => (
-              <div key={client.id} className="bg-white/5 p-6 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all duration-300">
-                <img src={client.logo} alt={client.name} className="opacity-70 hover:opacity-100 transition-opacity" />
+              <div key={client.id} className="bg-white/5 p-6 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all duration-300 h-32">
+                <img 
+                  src={client.logo} 
+                  alt={client.name} 
+                  className="max-w-full max-h-full object-contain opacity-70 hover:opacity-100 transition-opacity" 
+                />
               </div>
             ))}
           </div>
