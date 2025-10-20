@@ -163,7 +163,7 @@ const Projetos = () => {
           <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-2xl p-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="text-5xl font-bold text-black mb-2">500+</div>
+                <div className="text-5xl font-bold text-black mb-2">150+</div>
                 <div className="text-black/80 font-medium">Projetos Realizados</div>
               </div>
               <div>
