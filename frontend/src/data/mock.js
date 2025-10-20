@@ -209,11 +209,11 @@ export const testimonials = [
 ];
 
 export const clients = [
-  { id: 1, name: 'Cube Office', logo: 'https://logodownload.org/wp-content/uploads/2020/11/3d-cubes-logo-0.png' },
+  { id: 1, name: 'Cube Office', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/jluxptb0_a4c308d7-3d76-4e92-94b0-c988d4dccd99.jpeg' },
   { id: 2, name: 'Prefeitura de Mogi das Cruzes', logo: 'https://static.wixstatic.com/media/a55d92_4857f0aee8164263afa0b2c5995a9840~mv2.jpg' },
-  { id: 3, name: 'Unimed', logo: 'https://logodownload.org/wp-content/uploads/2014/09/unimed-logo-0.png' },
+  { id: 3, name: 'Unimed', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/h5gkxtpt_af833187-103b-4129-b7a3-c6807be7bb01.jpeg' },
   { id: 4, name: 'W3 Ambiental', logo: 'https://static.wixstatic.com/media/a55d92_58eb3f8b59694d228c88bb185ec931f4~mv2.jpeg' },
-  { id: 5, name: 'USP', logo: 'https://logodownload.org/wp-content/uploads/2014/04/usp-logo-universidade-de-sao-paulo.png' }
+  { id: 5, name: 'Babae Gelato', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/xapd0yqv_dcb89195-efc7-4ec7-9031-5a0896e41494.jpeg' }
 ];
 
 export const projects = [
