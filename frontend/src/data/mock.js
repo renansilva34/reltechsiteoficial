@@ -209,11 +209,11 @@ export const testimonials = [
 ];
 
 export const clients = [
-  { id: 1, name: 'Cube Office', logo: 'https://static.wixstatic.com/media/11062b_4275536deb4746ff8061950373e53ab0f000.jpg/v1/fill/w_300,h_80,al_c,q_80,enc_avif,quality_auto/11062b_4275536deb4746ff8061950373e53ab0f000.jpg' },
-  { id: 2, name: 'Prefeitura Mogi das Cruzes', logo: 'https://static.wixstatic.com/media/a55d92_4857f0aee8164263afa0b2c5995a9840~mv2.jpg/v1/fill/w_200,h_120,al_c,q_80,enc_avif,quality_auto/a55d92_4857f0aee8164263afa0b2c5995a9840~mv2.jpg' },
-  { id: 3, name: 'USP', logo: 'https://static.wixstatic.com/media/a55d92_76e2565d456d439d8f9f02965170402e~mv2.png/v1/fill/w_200,h_80,al_c,q_85,enc_avif,quality_auto/usp-university-of-sao-paulo7715-removebg-preview.png' },
-  { id: 4, name: 'W3 Ambiental', logo: 'https://static.wixstatic.com/media/a55d92_58eb3f8b59694d228c88bb185ec931f4~mv2.jpeg/v1/fill/w_180,h_100,al_c,q_80,enc_avif,quality_auto/a55d92_58eb3f8b59694d228c88bb185ec931f4~mv2.jpeg' },
-  { id: 5, name: 'Unimed', logo: 'https://static.wixstatic.com/media/a55d92_2e213a46cf5a4343956ff2d76d37291d~mv2.png/v1/fill/w_200,h_80,al_c,q_85,enc_avif,quality_auto/images-removebg-preview%20(1).png' }
+  { id: 1, name: 'Cliente 1', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/dne1eriq_7b327470-4a22-4536-adae-6f6d6a18be88.jpeg' },
+  { id: 2, name: 'Cliente 2', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/uewncbip_b3a1b121-c5ad-473b-82cb-c4e28be0e480.jpeg' },
+  { id: 3, name: 'Cliente 3', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/jib6nrsf_a470975c-c4da-4eb0-9cb2-290e3da25dfc.jpeg' },
+  { id: 4, name: 'Cliente 4', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/spv2esvo_c709c1e7-0f44-488a-bd24-d71d587b4434.jpeg' },
+  { id: 5, name: 'Cliente 5', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/k9iz2kd3_0b70658e-3fc1-4977-9594-83a21c38018f.jpeg' }
 ];
 
 export const projects = [
