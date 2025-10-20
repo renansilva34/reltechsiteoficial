@@ -96,6 +96,7 @@ const Contato = () => {
                   <div>
                     <h3 className="text-white font-semibold mb-1">Localização</h3>
                     <p className="text-gray-400">{contactInfo.address}</p>
+                    <p className="text-gray-400">CEP: {contactInfo.cep}</p>
                   </div>
                 </div>
 
