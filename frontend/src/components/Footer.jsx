@@ -87,14 +87,14 @@ const Footer = () => {
             © {new Date().getFullYear()} Rel-Tech Tecnologia. Todos os direitos reservados.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
-              <Facebook size={20} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
-              <Instagram size={20} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-green-500 transition-colors">
-              <Linkedin size={20} />
+            <a 
+              href="https://www.instagram.com/reltechtecnologia?igsh=MTl0ZG0xanM1MXI4ZA%3D%3D&utm_source=qr" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-green-500 transition-colors"
+              aria-label="Instagram Rel-Tech"
+            >
+              <Instagram size={24} />
             </a>
           </div>
         </div>
