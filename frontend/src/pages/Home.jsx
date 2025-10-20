@@ -212,7 +212,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Clients Section */}
+      {/* Clients Section - Carrossel Infinito */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -220,17 +220,7 @@ const Home = () => {
               Nossos <span className="text-green-500">Clientes</span>
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            {clients.map((client) => (
-              <div key={client.id} className="bg-white/5 p-6 rounded-lg flex items-center justify-center hover:bg-white/10 transition-all duration-300 h-32">
-                <img 
-                  src={client.logo} 
-                  alt={client.name} 
-                  className="max-w-full max-h-full object-contain opacity-70 hover:opacity-100 transition-opacity" 
-                />
-              </div>
-            ))}
-          </div>
+          <ClientsCarousel />
         </div>
       </section>
     </div>
