@@ -69,15 +69,6 @@ const Home = () => {
                 alt="Sistema de Segurança"
                 className="rounded-2xl shadow-2xl"
               />
-              <div className="absolute -bottom-6 -left-6 bg-black/80 backdrop-blur-sm p-6 rounded-xl border border-green-500/20">
-                <div className="flex items-center space-x-3">
-                  <Shield className="text-green-500" size={32} />
-                  <div>
-                    <div className="text-white font-semibold">Proteção 24/7</div>
-                    <div className="text-gray-400 text-sm">Monitoramento contínuo</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
