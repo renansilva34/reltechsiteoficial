@@ -20,11 +20,16 @@ const Home = () => {
                 </span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-                Identifique intrusos.
-                <span className="text-green-500"> Evite furtos.</span>
+                Identifique intrusos
               </h1>
+              <h2 className="text-5xl md:text-6xl font-bold leading-tight">
+                <span className="text-green-500">Evite furtos</span>
+              </h2>
+              <h2 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+                Monitore seus bens
+              </h2>
               <p className="text-xl text-gray-300">
-                Soluções eletrônicas completas de segurança em um só lugar. Monitore seus bens com tecnologia de ponta.
+                Soluções eletrônicas completas de segurança em um só lugar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
