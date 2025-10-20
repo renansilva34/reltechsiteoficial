@@ -73,21 +73,21 @@ export const products = {
       name: 'Câmera IP VIP 1020 B G2',
       category: 'Câmeras',
       description: 'Câmera Bullet IP HD 720p, infravermelho 20m, lente 3.6mm',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158267/camera-ip-vip-1020-b-g2-frente.png?v=637134978161470000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/9vkfjaz7_IMG_9087.jpeg'
     },
     {
       id: 2,
       name: 'Câmera VIP 1020 D G2',
       category: 'Câmeras',
       description: 'Câmera Dome IP HD 720p, infravermelho 20m, proteção IP66',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158268/camera-ip-vip-1020-d-g2-frente.png?v=637134978419470000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/qbe2x73k_IMG_9088.jpeg'
     },
     {
       id: 3,
       name: 'Câmera VIP 3020 B',
       category: 'Câmeras',
       description: 'Câmera IP Full HD 1080p, visão noturna avançada, PoE',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158485/camera-vip-3020-b-angulo.png?v=637147742598100000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/wnp9husr_IMG_9089.jpeg'
     }
   ],
   alarms: [
@@ -96,21 +96,21 @@ export const products = {
       name: 'Central de Alarme AMT 2018 E',
       category: 'Alarmes',
       description: 'Central de alarme 18 zonas, monitoramento via app',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158321/central-de-alarme-amt-2018-e-frente.png?v=637136556952900000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/qjet5meo_IMG_9090.jpeg'
     },
     {
       id: 5,
       name: 'Central de Alarme AMT 2010',
       category: 'Alarmes',
       description: 'Central de alarme 10 zonas, conexão GSM/GPRS',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158316/central-de-alarme-amt-2010-frente.png?v=637136550965870000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/xysxernt_IMG_9091.jpeg'
     },
     {
       id: 6,
       name: 'Central de Alarme AMT 4010 Smart',
       category: 'Alarmes',
       description: 'Central de alarme profissional 10 zonas com 4 partições',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/165621/central-de-alarme-amt-4010-smart-frente.png?v=637695831951900000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/c0510q0b_IMG_9092.jpeg'
     }
   ],
   locks: [
@@ -119,44 +119,44 @@ export const products = {
       name: 'Fechadura Digital FR 201',
       category: 'Fechaduras',
       description: 'Fechadura digital com senha e cartão, até 500 usuários',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158479/fechadura-digital-fr-201-frente.png?v=637147734588700000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/7wzv1pcd_IMG_9093.jpeg'
     },
     {
       id: 8,
       name: 'Fechadura Digital FR 101',
       category: 'Fechaduras',
       description: 'Fechadura digital básica com senha, fácil instalação',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158476/fechadura-digital-fr-101-frente.png?v=637147731619800000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/ei9mchgj_IMG_9094.jpeg'
     },
     {
       id: 9,
       name: 'Fechadura Digital FR 320',
       category: 'Fechaduras',
       description: 'Fechadura biométrica com senha e impressão digital',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158480/fechadura-digital-fr-320-frente.png?v=637147735562330000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/qeo83vak_IMG_9095.jpeg'
     }
   ],
   accessControl: [
     {
       id: 10,
-      name: 'Controlador SS 3510 MF',
+      name: 'Controlador SS 3532 MF',
       category: 'Controle de Acesso',
       description: 'Controlador de acesso 2 portas, 10.000 usuários',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158429/controlador-de-acesso-ss-3510-mf-frente.png?v=637143383732100000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/6jy2vbq7_b59d17c1-7ce3-41c9-a496-7232fceb5b67.jpeg'
     },
     {
       id: 11,
-      name: 'Controlador SS 5020 MF',
+      name: 'Controlador SS 5530 MF',
       category: 'Controle de Acesso',
       description: 'Controlador profissional 4 portas com biometria',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158431/controlador-de-acesso-ss-5020-mf-frente.png?v=637143385336670000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/nnxve4vl_854a378f-8f49-4f0c-b2af-f9e2d6372c43.jpeg'
     },
     {
       id: 12,
-      name: 'SS 4520 E',
+      name: 'SS 5020 MF',
       category: 'Controle de Acesso',
       description: 'Sistema completo de controle facial e biometria',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/158427/controlador-de-acesso-ss-4520-e-frente.png?v=637143381466200000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/ah3dyiqw_2595c57b-86cd-4d59-855d-cef0c4633b27.jpeg'
     }
   ],
   recorders: [
@@ -165,21 +165,21 @@ export const products = {
       name: 'Gravador MHDX 1104',
       category: 'Gravadores',
       description: 'DVR 4 canais Multi HD, acesso remoto via app',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/159058/gravador-digital-de-video-multi-hd-mhdx-1104-frente.png?v=637247995095170000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/x9qpe6im_7ab23fd5-b910-4e96-8477-0c1d82819443.jpeg'
     },
     {
       id: 14,
       name: 'Gravador MHDX 1108',
       category: 'Gravadores',
       description: 'DVR 8 canais Multi HD, detecção inteligente',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/159060/gravador-digital-de-video-multi-hd-mhdx-1108-frente.png?v=637247996706470000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/ry98rzxu_6e21ced8-2e36-4822-a048-d6b425167597.jpeg'
     },
     {
       id: 15,
       name: 'Gravador MHDX 1116',
       category: 'Gravadores',
       description: 'DVR 16 canais Multi HD, armazenamento SSD',
-      image: 'https://intelbras.vtexassets.com/arquivos/ids/159062/gravador-digital-de-video-multi-hd-mhdx-1116-frente.png?v=637247998363600000'
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/z98rh5gl_3cf849aa-4239-43ab-aa52-28c4331dba70.jpeg'
     }
   ]
 };
