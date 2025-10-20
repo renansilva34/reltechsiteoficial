@@ -85,10 +85,10 @@ export const products = {
     },
     {
       id: 3,
-      name: 'Câmera VIP 3020 B',
+      name: 'Câmera Speed Dome VIP 1300 Mini SD',
       category: 'Câmeras',
-      description: 'Câmera IP Full HD 1080p, visão noturna avançada, PoE',
-      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/wnp9husr_IMG_9089.jpeg'
+      description: 'Speed Dome IP, zoom 3x, rotação 360°, visão noturna 30m',
+      image: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/uyfx106l_bc65764f-cb01-48db-ab71-fb1927547fdc.jpeg'
     }
   ],
   alarms: [
