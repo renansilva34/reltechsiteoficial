@@ -284,8 +284,8 @@ export const projects = [
   {
     id: 8,
     title: 'Edifício Kalon',
-    description: 'Instalação de câmeras e interfone',
-    equipment: 'Sistema Completo | Marca: Intelbras',
+    description: 'Instalação de sistema de CFTV IP com câmeras Intelbras VIP 3230 B, VIP 3430 B e Speed Dome VIP 5230 SD IR PTZ, garantindo monitoramento de alta resolução em áreas internas e externas. Infraestrutura composta por cabeamento CAT6, eletrodutos galvanizados e caixas vedadas. Implementação de leitor de acesso Intelbras XPE 1001 FIT integrado ao elevador, com autenticação por credencial RFID.',
+    equipment: 'Câmeras VIP 3230 B, VIP 3430 B, Speed Dome VIP 5230 SD IR PTZ, Leitor XPE 1001 FIT | Marca: Intelbras',
     images: [
       'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/5lj3g43y_IMG_9037.jpeg',
       'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/von3q1iv_IMG_9038.jpeg',
