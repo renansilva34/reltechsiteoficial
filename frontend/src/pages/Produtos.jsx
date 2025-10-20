@@ -66,11 +66,11 @@ const Produtos = () => {
                 key={product.id}
                 className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl overflow-hidden border border-green-500/10 hover:border-green-500/30 transition-all duration-300 transform hover:-translate-y-2"
               >
-                <div className="relative h-64 overflow-hidden bg-gray-700">
+                <div className="relative h-64 overflow-hidden bg-white flex items-center justify-center">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-contain p-4 transform group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 left-4 bg-green-500 text-black px-3 py-1 rounded-full text-sm font-semibold">
                     {product.category}
