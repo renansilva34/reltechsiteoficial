@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Camera, Shield, Clock, Award, ArrowRight, CheckCircle } from 'lucide-react';
-import { services, testimonials, clients } from '../data/mock';
+import { services, testimonials } from '../data/mock';
 import * as Icons from 'lucide-react';
+import ClientsCarousel from '../components/ClientsCarousel';
 
 const Home = () => {
   return (
