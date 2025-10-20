@@ -209,11 +209,11 @@ export const testimonials = [
 ];
 
 export const clients = [
-  { id: 1, name: 'Cliente 1', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/dne1eriq_7b327470-4a22-4536-adae-6f6d6a18be88.jpeg' },
-  { id: 2, name: 'Cliente 2', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/uewncbip_b3a1b121-c5ad-473b-82cb-c4e28be0e480.jpeg' },
-  { id: 3, name: 'Cliente 3', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/jib6nrsf_a470975c-c4da-4eb0-9cb2-290e3da25dfc.jpeg' },
-  { id: 4, name: 'Cliente 4', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/spv2esvo_c709c1e7-0f44-488a-bd24-d71d587b4434.jpeg' },
-  { id: 5, name: 'Cliente 5', logo: 'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/k9iz2kd3_0b70658e-3fc1-4977-9594-83a21c38018f.jpeg' }
+  { id: 1, name: 'Cube Office', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cubo_Metatron_solid.svg/1200px-Cubo_Metatron_solid.svg.png' },
+  { id: 2, name: 'Prefeitura de Mogi das Cruzes', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bras%C3%A3o_de_Mogi_das_Cruzes.svg/800px-Bras%C3%A3o_de_Mogi_das_Cruzes.svg.png' },
+  { id: 3, name: 'Unimed', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Unimed_logo.svg/2560px-Unimed_logo.svg.png' },
+  { id: 4, name: 'W3 Ambiental', logo: 'https://w3ambiental.com.br/wp-content/uploads/2023/03/Logo-W3-Horizontal-Colorido.png' },
+  { id: 5, name: 'USP', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Webysther_20160322_-_Logo_USP.svg/2560px-Webysther_20160322_-_Logo_USP.svg.png' }
 ];
 
 export const projects = [
@@ -222,48 +222,75 @@ export const projects = [
     title: 'Universidade de São Paulo - USP',
     description: 'Instalação de Fechadura de Embutir no Campus USP',
     equipment: 'Modelo: FD 3000 | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_7022334a7f9a4da1a09233a613d8b815~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/a55d92_7022334a7f9a4da1a09233a613d8b815~mv2.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_7022334a7f9a4da1a09233a613d8b815~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/a55d92_7022334a7f9a4da1a09233a613d8b815~mv2.jpg'
+    ]
   },
   {
     id: 2,
     title: 'Reset Madeira Ecológica',
     description: 'Instalação de Porteiro Empresarial com Botoeira de Acionamento',
     equipment: 'Modelo: IPR 1010 | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_cecd1ecf879d43aeb2f3716d660d4b87~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/5.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_cecd1ecf879d43aeb2f3716d660d4b87~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/5.jpg'
+    ]
   },
   {
     id: 3,
     title: 'Escolas Municipais de São Paulo',
     description: 'Projeto CFTV escolas municipais de São Paulo',
     equipment: 'Modelo: Varifocal IDS-2CD7A46G0-P-IZHS | Marca: Hikvision',
-    image: 'https://static.wixstatic.com/media/a55d92_165b5d1167034849957a5afa547a9efb~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/Segundou%20Mosaico%20Mood%20Board%20Story%20Minimalista%20%20(1).jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_165b5d1167034849957a5afa547a9efb~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/Segundou%20Mosaico%20Mood%20Board%20Story%20Minimalista%20%20(1).jpg'
+    ]
   },
   {
     id: 4,
     title: 'Condomínio Pleno Santa Cruz',
     description: 'Instalação de Roteadores Empresariais nas dependências do Condomínio',
     equipment: 'Modelo: AP 360 | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_08ce4d790cf34fe59a0268c00b764d87~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/7.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_08ce4d790cf34fe59a0268c00b764d87~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/7.jpg'
+    ]
   },
   {
     id: 5,
     title: 'Ritmo Visual Filmes',
     description: 'Instalação de Kit CFTV de 04 câmeras com porteiro e fechadura',
     equipment: 'Modelo: IFR 7001; IPR 1010 | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_2f391aec9bf247ba8853e5a643f03b6d~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/4.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_2f391aec9bf247ba8853e5a643f03b6d~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/4.jpg'
+    ]
   },
   {
     id: 6,
     title: 'Babae Gelato',
     description: 'Instalação CFTV, alarme e som ambiente na Gelateria',
     equipment: 'Modelo: Bullet e Dome | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_f2394993da724c3f9850a78c97645878~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/6.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_f2394993da724c3f9850a78c97645878~mv2.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/6.jpg'
+    ]
   },
   {
     id: 7,
     title: 'Cliente Rel-Tech (Isabela)',
     description: 'Instalação de Automatizador de Portão em residência',
     equipment: 'Modelo: DR 400 | Marca: Intelbras',
-    image: 'https://static.wixstatic.com/media/a55d92_9aaac7453c0b4948bfa733d51f396c8bf000.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/a55d92_9aaac7453c0b4948bfa733d51f396c8bf000.jpg'
+    images: [
+      'https://static.wixstatic.com/media/a55d92_9aaac7453c0b4948bfa733d51f396c8bf000.jpg/v1/fill/w_400,h_700,al_c,q_80,enc_avif,quality_auto/a55d92_9aaac7453c0b4948bfa733d51f396c8bf000.jpg'
+    ]
+  },
+  {
+    id: 8,
+    title: 'Edifício Kalon',
+    description: 'Instalação de câmeras e interfone',
+    equipment: 'Sistema Completo | Marca: Intelbras',
+    images: [
+      'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/5lj3g43y_IMG_9037.jpeg',
+      'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/von3q1iv_IMG_9038.jpeg',
+      'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/s8wfjug6_IMG_9034.jpeg',
+      'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/28w0iu4p_IMG_9043.jpeg',
+      'https://customer-assets.emergentagent.com/job_intelbras-partner/artifacts/m5j0lwbo_IMG_9045.jpeg'
+    ]
   }
 ];

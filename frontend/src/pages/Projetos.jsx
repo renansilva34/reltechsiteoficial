@@ -1,8 +1,37 @@
-import React from 'react';
-import { Building2, CheckCircle } from 'lucide-react';
+import React, { useState } from 'react';
+import { Building2, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { projects } from '../data/mock';
 
 const Projetos = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const openModal = (project) => {
+    setSelectedProject(project);
+    setCurrentImageIndex(0);
+  };
+
+  const closeModal = () => {
+    setSelectedProject(null);
+    setCurrentImageIndex(0);
+  };
+
+  const nextImage = () => {
+    if (selectedProject && selectedProject.images) {
+      setCurrentImageIndex((prev) => 
+        prev === selectedProject.images.length - 1 ? 0 : prev + 1
+      );
+    }
+  };
+
+  const prevImage = () => {
+    if (selectedProject && selectedProject.images) {
+      setCurrentImageIndex((prev) => 
+        prev === 0 ? selectedProject.images.length - 1 : prev - 1
+      );
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black pt-32 pb-20">
       {/* Hero Section */}
@@ -25,23 +54,29 @@ const Projetos = () => {
         </div>
       </section>
 
-      {/* Projects Grid - Layout idêntico ao site original (lado a lado) */}
+      {/* Projects Grid */}
       <section className="px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <div
                 key={project.id}
-                className="group bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
+                className="group bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
+                onClick={() => openModal(project)}
               >
                 <div className="md:flex md:items-stretch">
-                  {/* Image */}
-                  <div className="md:w-1/3 relative h-64 md:h-auto overflow-hidden">
+                  {/* Image - Reduced size */}
+                  <div className="md:w-1/3 relative h-48 md:h-auto overflow-hidden">
                     <img
-                      src={project.image}
+                      src={project.images[0]}
                       alt={project.title}
                       className="w-full h-full object-cover"
                     />
+                    {project.images.length > 1 && (
+                      <div className="absolute bottom-2 right-2 bg-black/70 text-white px-2 py-1 rounded text-xs">
+                        +{project.images.length} fotos
+                      </div>
+                    )}
                   </div>
                   
                   {/* Content */}
@@ -51,6 +86,9 @@ const Projetos = () => {
                     <div className="text-sm text-gray-400">
                       {project.equipment}
                     </div>
+                    <div className="mt-4 text-green-500 text-sm font-semibold">
+                      Clique para ver detalhes
+                    </div>
                   </div>
                 </div>
               </div>
@@ -58,6 +96,66 @@ const Projetos = () => {
           </div>
         </div>
       </section>
+
+      {/* Modal */}
+      {selectedProject && (
+        <div 
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={closeModal}
+        >
+          <div 
+            className="relative max-w-5xl w-full bg-gray-900 rounded-2xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              onClick={closeModal}
+              className="absolute top-4 right-4 z-10 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
+            >
+              <X size={24} />
+            </button>
+
+            {/* Image Carousel */}
+            <div className="relative">
+              <img
+                src={selectedProject.images[currentImageIndex]}
+                alt={selectedProject.title}
+                className="w-full h-[60vh] object-contain bg-black"
+              />
+
+              {/* Navigation Arrows */}
+              {selectedProject.images.length > 1 && (
+                <>
+                  <button
+                    onClick={prevImage}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-colors"
+                  >
+                    <ChevronLeft size={24} />
+                  </button>
+                  <button
+                    onClick={nextImage}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full hover:bg-black/70 transition-colors"
+                  >
+                    <ChevronRight size={24} />
+                  </button>
+
+                  {/* Image Counter */}
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-sm">
+                    {currentImageIndex + 1} / {selectedProject.images.length}
+                  </div>
+                </>
+              )}
+            </div>
+
+            {/* Project Details */}
+            <div className="p-6">
+              <h2 className="text-white font-bold text-2xl mb-3">{selectedProject.title}</h2>
+              <p className="text-gray-300 mb-3">{selectedProject.description}</p>
+              <div className="text-sm text-gray-400">{selectedProject.equipment}</div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Stats Section */}
       <section className="px-4 sm:px-6 lg:px-8 mt-20">
