@@ -209,11 +209,11 @@ export const testimonials = [
 ];
 
 export const clients = [
-  { id: 1, name: 'Cube Office', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cubo_Metatron_solid.svg/1200px-Cubo_Metatron_solid.svg.png' },
-  { id: 2, name: 'Prefeitura de Mogi das Cruzes', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bras%C3%A3o_de_Mogi_das_Cruzes.svg/800px-Bras%C3%A3o_de_Mogi_das_Cruzes.svg.png' },
-  { id: 3, name: 'Unimed', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Unimed_logo.svg/2560px-Unimed_logo.svg.png' },
-  { id: 4, name: 'W3 Ambiental', logo: 'https://w3ambiental.com.br/wp-content/uploads/2023/03/Logo-W3-Horizontal-Colorido.png' },
-  { id: 5, name: 'USP', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Webysther_20160322_-_Logo_USP.svg/2560px-Webysther_20160322_-_Logo_USP.svg.png' }
+  { id: 1, name: 'Cube Office', logo: 'https://logodownload.org/wp-content/uploads/2020/11/3d-cubes-logo-0.png' },
+  { id: 2, name: 'Prefeitura de Mogi das Cruzes', logo: 'https://static.wixstatic.com/media/a55d92_4857f0aee8164263afa0b2c5995a9840~mv2.jpg' },
+  { id: 3, name: 'Unimed', logo: 'https://logodownload.org/wp-content/uploads/2014/09/unimed-logo-0.png' },
+  { id: 4, name: 'W3 Ambiental', logo: 'https://static.wixstatic.com/media/a55d92_58eb3f8b59694d228c88bb185ec931f4~mv2.jpeg' },
+  { id: 5, name: 'USP', logo: 'https://logodownload.org/wp-content/uploads/2014/04/usp-logo-universidade-de-sao-paulo.png' }
 ];
 
 export const projects = [
