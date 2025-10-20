@@ -152,9 +152,9 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: 'Câmeras', icon: Camera, img: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&q=80' },
-              { title: 'Alarmes', icon: Shield, img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80' },
-              { title: 'Fechaduras', icon: Icons.Lock, img: 'https://images.unsplash.com/photo-1585504198199-20277593b94f?w=500&q=80' }
+              { title: 'Câmeras', icon: Camera, img: 'https://static.wixstatic.com/media/a55d92_9b0a876238a7420e8a44f92610c3a182~mv2.jpg/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/a55d92_9b0a876238a7420e8a44f92610c3a182~mv2.jpg' },
+              { title: 'Alarmes', icon: Shield, img: 'https://static.wixstatic.com/media/a55d92_661b434b9a5047a0ae0319e82729b923~mv2.jpg/v1/fit/w_480,h_360,q_90,enc_avif,quality_auto/a55d92_661b434b9a5047a0ae0319e82729b923~mv2.jpg' },
+              { title: 'Fechaduras', icon: Icons.Lock, img: 'https://static.wixstatic.com/media/a55d92_b314d119cd7449c8b53488883ad65bbb~mv2.jpg/v1/fit/w_480,h_361,q_90,enc_avif,quality_auto/a55d92_b314d119cd7449c8b53488883ad65bbb~mv2.jpg' }
             ].map((item, index) => (
               <div key={index} className="group relative overflow-hidden rounded-xl">
                 <img
