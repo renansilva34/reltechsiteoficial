@@ -4,7 +4,8 @@ export const contactInfo = {
   phone: '5511971943263',
   email: 'comercial@rel-tech.com.br',
   whatsapp: 'https://api.whatsapp.com/send/?phone=5511971943263&text&type=phone_number&app_absent=0',
-  address: 'São Paulo e Guarulhos - SP'
+  address: 'Guarulhos - SP',
+  cep: '07074-100'
 };
 
 export const services = [
