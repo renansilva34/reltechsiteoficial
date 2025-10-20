@@ -70,9 +70,12 @@ const Footer = () => {
                 <Mail size={16} className="text-green-500" />
                 <span>{contactInfo.email}</span>
               </li>
-              <li className="flex items-center space-x-2 text-gray-400 text-sm">
-                <MapPin size={16} className="text-green-500" />
-                <span>{contactInfo.address}</span>
+              <li className="flex items-start space-x-2 text-gray-400 text-sm">
+                <MapPin size={16} className="text-green-500 mt-0.5 flex-shrink-0" />
+                <div>
+                  <div>{contactInfo.address}</div>
+                  <div>CEP: {contactInfo.cep}</div>
+                </div>
               </li>
             </ul>
           </div>
