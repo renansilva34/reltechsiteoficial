@@ -49,7 +49,7 @@ const Home = () => {
                   <div className="text-sm text-gray-400">Anos no Mercado</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-500">500+</div>
+                  <div className="text-3xl font-bold text-green-500">150+</div>
                   <div className="text-sm text-gray-400">Projetos</div>
                 </div>
                 <div>
